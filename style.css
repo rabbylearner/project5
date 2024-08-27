@@ -1,0 +1,438 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans TC", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container1{
+    background: url(image/bg1.png);
+    max-width: 1440px;
+    margin: 0 auto;
+    height:844px;
+    position: relative;
+}
+.navbar{
+    max-width: 1440px;
+    background: rgba(0, 0, 0, .25);
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 48px
+
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.navbar ul li a{
+    font-size:20px;
+    color: #FFFFFF;
+}
+.hero{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 35%;
+    left:20%;
+    gap: 100px;
+}
+.hero_text h1{
+    font-size: 68px;
+    color:#FFFFFF ;
+    margin-bottom: 20px;
+}
+.hero_text h5{
+   font-size:24px;
+   color: #606060;
+}
+.hero .btn-lg{
+    margin-right: 60px;
+    border: 1px solid #ffffffc2;
+    padding:11px 18px;
+    background: #8C86FF;
+    border-radius: 15px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.container2{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.container2 .mana{
+    margin-left: 70px;
+}
+.container2 .container{
+    position: absolute;
+    max-width: 1050px;
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    left: 200px;
+}
+.d-flex{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-flex .col-3{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d-flex .col-3 h3{
+    font-size:32px;
+    color:#606060 ;
+}
+.container3{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #F8F8FF;
+}
+.container3 .container{
+margin-top: 539px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px 150px;
+
+}
+.container3 .left{
+    max-width:300px;
+}
+.container3 .right_text{
+    max-width:680px;
+    padding: 40px;
+}
+.container3 .right_text h2{
+    font-size: 48px;
+    color: #555555;
+    padding: 8px;
+}
+.container3 .right_text div{
+    display: flex;
+    align-items: center;
+}
+.container3 .right_text p{
+    font-size: 18px;
+}
+.container4{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    
+}
+.container4 .left{
+    max-width:300px;
+}
+.container4 .right_text{
+    max-width:680px;
+    padding: 30px;
+}
+.container4 .right_text h2{
+    font-size: 45px;
+    color: #555555;
+}
+.container4 .right_text p{
+    font-size: 18px;
+}
+
+.container5{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #F8F8FF;
+}
+.container5 .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 50px 150px;
+
+}
+.container5 .left{
+    max-width:300px;
+}
+.container5 .right_text{
+    max-width:680px;
+    padding: 20px;
+}
+.container5 .right_text h2{
+    font-size: 45px;
+    color: #555555;
+}
+.container5 .right_text p{
+    font-size: 18px;
+}
+footer{
+    max-width: 1440px;
+    height: 503px;
+    margin: 0 auto;
+    background: #8C86FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signup-container h2 {
+    font-size:48px ;
+    margin-bottom: 20px;
+    color: #555555;
+}
+.form_container{
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 15px;
+    border: 2px solid #d1c4e9;
+    border-radius: 50px;
+    outline: none;
+    max-width: 568px;
+}
+
+.signup-container input[type="email"] {
+    padding: 10px;
+    font-size: 32px;
+    border: 0 solid white;
+    border-radius: 50px;
+    outline: none;
+    max-width: 460px;
+}
+
+.signup-container input[type="email"]:focus {
+    border-color: #9575cd;
+}
+
+.signup-container button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-container button:hover {
+    background-color: #7e57c2;
+}
+.form_container i{
+    font-size: 32px;
+    color: #8C86FF;
+}
+.my{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #8C86FF;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.my p{
+    font-size: 8px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    color: #000;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .container1{
+        height:500px ;
+    }
+    .hero{
+        top: 30%;
+        gap: 80px;
+    }
+    .hero_text{
+        padding-right: 65px;
+    }
+    .hero_text h1{
+        font-size: 36px;
+    }
+    .hero_text h5{
+        font-size: 18px;
+    }
+
+    .hero .btn-lg{
+        margin-right: 135px;
+    }
+    .container2 .mana{
+        margin-left: 0;
+    }
+
+    .container2 .container{
+        left: 145px;
+    }
+    
+    .container2 .container .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3 .container{
+        margin-top: 1100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container3 .right_text{
+        width: 500px;
+        margin-left: 60px;
+    }
+    .container3 .right_text img{
+        width: 30px;
+    }
+    .container3 .right_text h2{
+        font-size: 30px;
+        padding: 2px;
+    }
+    .container4 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container4 .right_text{
+        width: 500px;
+        margin-left: 60px;
+    }
+    .container4 .right_text h2{
+        font-size: 30px;
+        padding: 2px;
+    }
+    .container5 .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container5 .right_text{
+        width: 500px;
+        margin-left: 60px;
+    }
+    .container5 .right_text h2{
+        font-size: 30px;
+        padding: 2px;
+    }
+}
+
+@media (max-width: 576px){
+    .container1{
+        height:500px ;
+    }
+    #navbarText{
+        visibility: hidden;
+    }
+    .hero{
+        top: 25%;
+    }
+    .container2 .mana{
+        margin-right:67px;
+    }
+    .container2 .d-flex{
+        margin-right: 67px;
+    }
+    .hero_text{
+        padding-right: 20px;
+    }
+    .hero_text h1{
+        font-size: 24px;
+    }
+    .hero_text h5{
+        font-size: 16px;
+    }
+    .hero .btn-lg{
+        font-size: 16px;
+        margin-right: 100px;
+    }
+    .container2 .container{
+        left: 50px;
+    }
+    .container3 .container{
+        margin-right: 25px;
+    }
+    .container3 .right_text{
+        width: 400px;
+        padding: 50px;
+        margin-right: 45px;
+    }
+    .container3 .right_text img{
+        width: 24px;
+    }
+    .container3 .right_text h2{
+        font-size: 24px;
+        padding: 2px;
+    }
+    .container3 .right_text p{
+        font-size: 12px;
+    }
+    .container4 .container{
+        margin-right: 25px;
+    }
+    .container4 .right_text{
+        width: 400px;
+        padding: 50px;
+        margin-right: 45px;
+    }
+    .container4 .right_text h2{
+        font-size: 22px;
+        padding: 2px;
+    }
+    .container4 .right_text p{
+        font-size: 12px;
+    }
+    .container5 .container{
+        margin-right: 25px;
+    }
+
+    .container5 .right_text{
+        width: 400px;
+        padding: 50px;
+        margin-right: 45px;
+    }
+    .container5 .right_text h2{
+        font-size: 20px;
+        padding: 2px;
+    }
+    .container5 .right_text p{
+        font-size: 12px;
+    }
+    
+    .signup-container h2{
+        font-size: 24px;
+    }
+    .signup-container input[type="email"]{
+        padding: 0;
+        font-size: 16px;
+        border: 0 solid white;
+        border-radius: 50px;
+        outline: none;
+    }
+    .form_container i {
+        font-size: 16px;
+        padding:2px;
+    }
+}
